@@ -6,6 +6,7 @@ from twitchAPI.twitch import Twitch
 import asyncio
 import dontLeak
 import PersonaSystem
+import custom_shoutouts
 
 APP_ID = dontLeak.client_id
 APP_SECRET = dontLeak.client_secret
@@ -77,7 +78,8 @@ async def run_bot():
     chat.register_event(ChatEvent.MESSAGE, on_message)
     chat.register_command('so', shoutout_command)
     chat.register_command('discord', discord_command)
-    chat.register_command('contract', PersonaSystem.summon_command)
+    # chat.register_command('contract', PersonaSystem.summon_command)
+    chat.register_command('pinky', custom_shoutouts.pinky_command)
     chat.start()
     
     try:
