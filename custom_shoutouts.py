@@ -43,4 +43,3 @@ async def pinky_command(cmd: ChatCommand):
     await cmd.reply(message)
 
 
-
