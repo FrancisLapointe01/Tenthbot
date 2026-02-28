@@ -2,12 +2,13 @@ This is a Twitch Chatbot for my Twitch Channel utilzing Python and the twitchAPI
 
 Currently Features:
 A Gacha Style System Based On the Video Game Series Persona
-The Ability to Shoutout and Link to a Streamer
-Link to my Discord
+The Ability to Shoutout and Link to a Streamer 
+Link to my Discord 
+Add Personalized Shoutout Messages for Friends
+
 
 To Do:
 Implement Gacha Cooldown System
-Add Personalized Shoutout Messages for Friends
 Implement Persona Fusion system?
 Add more gameified Features
 
